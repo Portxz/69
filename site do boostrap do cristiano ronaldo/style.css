@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+}
+
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#2600ff 0%, #ffe600 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+
+}
+
+
+#name {
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+.menu{
+ list-style: none;
+  position: absolute;
+  top: 10px;
+  right:30px;
+  z-index: 10;
+}
+.my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999;
+}
+
+a {
+  text-decoration: none;
+}
+.Filmes_head
+{
+    font-size: 20px;
+    padding:6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.Filmes_head i
+{float: right;
+}
+
+.Filmes_text span{
+    color: black;
+}
